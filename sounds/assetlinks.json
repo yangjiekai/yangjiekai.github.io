@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.kai.pwadeepdrum",
+    "sha256_cert_fingerprints":
+    ["EA:AE:E6:C8:06:CD:01:64:F2:4A:26:DA:C6:1F:49:25:2B:37:6B:69:F6:4B:6B:0F:FD:68:20:84:A4:F5:9A:D6"]
+  }
+}]
