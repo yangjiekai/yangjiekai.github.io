@@ -1,8 +1,9 @@
+
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.yangjiekai",
+    "package_name": "ru.andrey.pwa",
     "sha256_cert_fingerprints":
     ["1A:A9:7A:70:1C:2F:6F:78:5E:9C:D5:59:A5:8B:85:8E:A4:39:0D:C5:39:D7:5B:1D:CB:70:26:B5:2F:29:82:50"]
   }
