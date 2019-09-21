@@ -1,10 +1,11 @@
 
+
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
     "package_name": "ru.andrey.pwa",
     "sha256_cert_fingerprints":
-    ["1A:A9:7A:70:1C:2F:6F:78:5E:9C:D5:59:A5:8B:85:8E:A4:39:0D:C5:39:D7:5B:1D:CB:70:26:B5:2F:29:82:50"]
+    ["E8:90:94:66:3E:4F:CA:60:91:49:65:D7:03:52:9A:BA:85:8C:5E:4A:55:DA:1E:24:E7:28:01:48:DB:91:8D:FF"]
   }
 }]
