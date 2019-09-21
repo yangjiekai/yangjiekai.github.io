@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.kai.pwadeepdrum",
+    "package_name": "com.yangjiekai",
     "sha256_cert_fingerprints":
-    ["EA:AE:E6:C8:06:CD:01:64:F2:4A:26:DA:C6:1F:49:25:2B:37:6B:69:F6:4B:6B:0F:FD:68:20:84:A4:F5:9A:D6"]
+    ["1A:A9:7A:70:1C:2F:6F:78:5E:9C:D5:59:A5:8B:85:8E:A4:39:0D:C5:39:D7:5B:1D:CB:70:26:B5:2F:29:82:50"]
   }
 }]
