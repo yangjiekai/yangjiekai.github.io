@@ -8,6 +8,16 @@ var boolMidi       = 0;
 var boolArpNote    = 0;
 var boolArpToggler = 0;
 
+
+// to lock portrait
+//locOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation || screen.orientation.lock;
+//screen.orientation.lock('landscape');
+//ScreenOrientation.lock("portrait");
+
+
+// and then allow any
+//ScreenOrientation.unlock();
+
 //------------------------------
 // GLOBAL VARIABLES in this app
 //------------------------------
@@ -407,6 +417,12 @@ function createUItuners() {
 	text_slider_bar_length.innerHTML        = slider_bar_length.value + " bars";
 	text_slider_beats_per_bar.innerHTML     = slider_beats_per_bar.value;
 	text_slider_split_beats_into.innerHTML  = slider_split_beats_into.value;
+
+//document.documentElement.requestFullscreen();
+//screen.orientation.lock('portrait').then(null, function(error) {
+//document.exitFullscreen()
+//});
+
 }
 
 createUItuners();
@@ -1100,6 +1116,8 @@ function playDeepDrum(id) {
 		timelineIndicator.style.left = "0px";
 		clearIndicatorInStepButtons();
 	}
+
+
 }
 
 //------------------------------
@@ -1718,3 +1736,9 @@ function getScaleNotes() {
 		scale_all_notes.push(note_pre + note_num.toString());
 	}
 }
+
+//document.documentElement.requestFullscreen();
+//    screen.orientation.lock('portrait').then(null, function(error) {
+//    document.exitFullscreen()
+//    });
+

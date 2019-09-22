@@ -1,0 +1,10 @@
+{
+  "name": "Super Racer 2000",
+  "short_name": "piano",
+
+  "scope": "",
+  "start_url": "http://localhost:8080/",
+
+  "display": "fullscreen",
+  "orientation": "landscape"
+}
