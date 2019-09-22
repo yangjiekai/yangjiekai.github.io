@@ -3,8 +3,9 @@
   "short_name": "piano",
 
   "scope": "",
-  "start_url": "http://localhost:8080/",
 
-  "display": "fullscreen",
+  "start_url": "/index.html",
+  "display": "standalone",
+
   "orientation": "landscape"
 }
