@@ -21,7 +21,7 @@
   "display": "standalone",
 
 
-  "scope": "",
+  "scope": "./",
 
   "start_url": "./",
   "orientation": "landscape"
