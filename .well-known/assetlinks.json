@@ -1,6 +1,8 @@
 
 
-[{
+[
+
+  {
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
@@ -8,4 +10,17 @@
     "sha256_cert_fingerprints":
     ["E8:90:94:66:3E:4F:CA:60:91:49:65:D7:03:52:9A:BA:85:8C:5E:4A:55:DA:1E:24:E7:28:01:48:DB:91:8D:FF"]
   }
-}]
+},
+
+
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.fvciss",
+      "sha256_cert_fingerprints": ["F6:3D:2A:9E:D4:72:B5:96:D6:70:95:29:FB:DB:AF:B9:88:0F:D5:88:D9:59:3B:97:66:F4:F5:4C:C0:4A:8C:FF"]
+    }
+  }
+
+
+]
