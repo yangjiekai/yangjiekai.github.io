@@ -256,6 +256,15 @@ src="sounds/salamander/A1.mp3">
 			lead_synth.triggerAttackRelease('C3', '8n');
 			lead_synth.triggerAttackRelease('E3', '8n');
 			//lead_synth.volume.value = temp_vol;
-		}, 7000);</script>
+		}, 7000);
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+        .then((reg) => {
+          console.log('Service worker registered.', reg);
+        });
+  });
+}
+</script>
 </body>
 </html>
