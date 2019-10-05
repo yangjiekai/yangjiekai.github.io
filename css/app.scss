@@ -139,7 +139,7 @@ html {
 }
 
 .deepdrum-drumkit-info:hover {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 	color: white;
 }
 
@@ -411,7 +411,7 @@ html {
 .deepdrum-record {
 	height: 100%;
 	width: 100%;
-    background-color: #f62e2e;
+    background-color: #ec745e;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     background-image: url(../images/record-stop.png);
     background-repeat: no-repeat;
@@ -433,7 +433,7 @@ html {
 .deepdrum-regenerate {
 	height: 100%;
 	width: 100%;
-    background-color: #f62e2e;
+    background-color: #608385;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     background-image: url(../images/regenerate.png);
     background-repeat: no-repeat;
@@ -446,6 +446,9 @@ html {
 
 .deepdrum-regenerate:hover {
 	box-shadow: 0 3px 3px -2px rgba(0,0,0,.2), 0 3px 14px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+	 -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5);
 }
 
 .deepdrum-regenerate:focus {
@@ -474,47 +477,47 @@ html {
 }
 
 .deepdrum-kick {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-snare {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-hihat-closed {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-hihat-open {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-tom-low {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-tom-mid {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-tom-high {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-clap {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-ride {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-bass {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-synth {
-	background-color: #f62e2e;
+	background-color: #ec745e;
 }
 
 .deepdrum-instrument-image {
@@ -581,10 +584,10 @@ html {
 
 .deepdrum-select {
 	display: block;
-    background-color: #f62e2e;
+    background-color: #ec745e;
     width: 300px;
     padding: 5px;
-    border: 1px solid #f62e2e;
+    border: 1px solid #ec745e;
     border-radius: 2px;
     height: 5rem;
     font-size: 40px;
@@ -724,7 +727,7 @@ html {
 }
 
 .btns-tag-plus {
-	background-color: #f62e2e !important;
+	background-color: #ec745e !important;
     color: black !important;
 }
 
@@ -735,7 +738,7 @@ html {
 
 .deepdrum-arp-btn {
 	color: #000;
-    background-color: #f62e2e;
+    background-color: #ec745e;
     height: 100%;
     border: 0;
     border-radius: 5px;
@@ -831,7 +834,7 @@ html {
 
 .deepdrum-timeline-pattern-box {
 	height: 100%;
-	background: #f62e2e;
+	background: #ec745e;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -880,7 +883,7 @@ html {
 .deepdrum-timeline-clear {
 	padding: 0 !important;
     width: 40px;
-    background-color: #f62e2e;
+    background-color: #ec745e;
     border: 0;
     color: black;
     height: 100%;
@@ -1050,7 +1053,7 @@ html {
     font-family: Roboto;
     color: black;
     border: none;
-    background-color: #f62e2e;
+    background-color: #ec745e;
     cursor: pointer;
     border-radius: 50%;
 	font-weight: bold;
@@ -1104,7 +1107,7 @@ html {
 
 .text-settings-value {
 	font-size: 11px;
-    color: #f62e2e;
+    color: #ec745e;
     padding: 0 10px;
 }
 

@@ -231,7 +231,7 @@ function updateDisplayArpChord() {
 
 var hold_arp_limit = 5;
 var hold_arp_val   = 1;
-var hold_arp_colors = ["#f62e2e", "#ffffff", "#f62e2e", "#ffffff", "#f62e2e"];
+var hold_arp_colors = ["#ec745e", "#ffffff", "#ec745e", "#ffffff", "#ec745e"];
 
 function holdArp() {
 	var btn_hold = document.getElementById("deepdrum-arp-hold");

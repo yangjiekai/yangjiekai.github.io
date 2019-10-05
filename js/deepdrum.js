@@ -151,7 +151,7 @@ var temperature_arp = 1.0;
 // create nexus UI dials/toggles
 //--------------------------------
 function createUItuners() {
-	Nexus.colors.accent = "#f62e2e";
+	Nexus.colors.accent = "#ec745e";
 	Nexus.colors.fill = "#242424ad";
 
 	dial_tempo = new Nexus.Slider('#dial-tempo',{
@@ -913,7 +913,7 @@ function createVolumeDials() {
 		  'step': 1,
 		  'value': 2
 		});
-		dial_volume_name.colorize("accent","#f62e2e");
+		dial_volume_name.colorize("accent","#ec745e");
 		dial_volume_name.colorize("fill","#000");
 
 		if(i == 0) {
@@ -1490,7 +1490,7 @@ function downloadPattern(id) {
 			recorder.stop();
 		}
 
-		btn.style.backgroundColor = "#f62e2e";
+		btn.style.backgroundColor = "#ec745e";
 		btn.style.backgroundImage = "url('images/record-stop.png')";
 		toggle_play = 1;
 		playDeepDrum("deepdrum-play");
